@@ -1,29 +1,12 @@
-# hello-world
+# Client Side
 
-## Project setup
+## Build to server/public
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
+yarn build
 ```
 
-### Compiles and minifies for production
+### Run client app
 ```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
+yarn serve
 ```
 
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
