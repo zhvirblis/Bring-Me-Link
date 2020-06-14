@@ -1,0 +1,33 @@
+{
+  "name": "bringmelink-server",
+  "version": "0.0.1",
+  "author": "zhvirblis <yurocker@mail.ru>",
+  "scripts": {
+    "server": "node ./bin/www",
+    "migration": "node migration"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "cors": "^2.8.5",
+    "debug": "~0.7.4",
+    "express": "~4.0.0",
+    "express-jwt": "^5.3.0",
+    "jsonwebtoken": "^8.1.0",
+    "morgan": "~1.0.0",
+    "node-postgres-named": "^2.4.1",
+    "passport": "^0.4.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "pg": "^7.4.0",
+    "socket.io": "^2.2.0",
+    "socketio-jwt-auth": "^0.0.6",
+    "static-favicon": "~1.0.0"
+  }
+}
